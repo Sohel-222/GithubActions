@@ -1,35 +1,20 @@
 {
-
-  "name": "node-app",
-
-  "description": "hello jenkins test app",
-
-  "version": "0.0.1",
-
-  "private": true,
-
-  "main": "index.js",
-
+  "name": "sample-node.js-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-
-    "start": "node index.js",
-
-    "test": "mocha"
-
+    "start": "node app.js",
+    "test": "mocha --recursive --exit"
   },
-
-  "dependencies": {
-
-    "express": "3.12.0"
-
-  },
-
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-
-    "mocha": "10.2.0",
-
-    "supertest": "6.3.3"
-
+    "chai": "^4.3.10",
+    "mocha": "^6.2.1"
+  },
+  "dependencies": {
+    "chai-http": "^4.4.0"
   }
-
 }
